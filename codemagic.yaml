@@ -1,0 +1,15 @@
+workflows:
+  android-workflow:
+    name: android sample wf
+    max_build_duration: 120
+    publishing:
+      email:
+        recipients:
+          - raj19950114@gmail.com
+        notify:
+          success: true
+          failure: false
+  ios-workflow:
+    name: ios sample wf
+    max_build_duration: 120
+    
