@@ -6,6 +6,7 @@ workflows:
       email:
         recipients:
           - raj19950114@gmail.com
+          - nikhiltuthika@gmail.com
         notify:
           success: true
           failure: false
